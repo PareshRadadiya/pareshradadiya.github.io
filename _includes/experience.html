@@ -1,0 +1,33 @@
+<section class="section experiences-section">
+  <h2 class="section-title"><i class="fa fa-briefcase"></i>&nbsp;Experiences</h2>
+
+{% for experience in site.data.experiences %}
+  <div class="item">
+
+    <div class="meta">
+
+      <div class="upper-row">
+        <h4 class="job-title">{{ experience.role }}</h4>
+        <div class="time">{{ experience.time }}</div>
+      </div><!--//upper-row-->
+    
+      <div class="company"><a href="{{ experience.company.link }}" target="_blank">{{ experience.company.name }}</a></div>
+
+    </div><!--//meta-->
+
+    {% if experience.details %}
+    <div class="details">
+      <p>{{ experience.details }}</p>
+    </div><!--//details-->
+    {% endif %}
+
+    <div class="highlights">
+    {% for highlight in experience.highlights %}
+      <li>{{ highlight }}</li>
+    {% endfor %}
+    </div>
+
+  </div><!--//item-->
+{% endfor %}
+
+</section><!--//section-->

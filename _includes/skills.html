@@ -1,0 +1,19 @@
+<section class="section summary-section">
+
+  <h2 class="section-title"><i class="fa fa-rocket"></i>&nbsp;Skills and Expertise</h2>
+
+	
+    <table>
+    	{% for skill in site.data.skills %}
+    	<tr>
+    		<td><strong>{{ skill.type }}</strong></td>
+    		<td>
+    			{% for item in skill.set %}
+    				{{ item }}{% unless forloop.last %},&nbsp;{% endunless %}
+    			{% endfor %}
+    		</td>
+    	</tr>
+    	{% endfor %}
+    </table>
+    
+</section><!--//section-->

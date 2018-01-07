@@ -1,0 +1,20 @@
+contribution:
+    - project: 
+      title: BuddyPress 
+      link: https://buddypress.trac.wordpress.org/query?status=accepted&status=assigned&status=closed&status=new&status=reopened&status=reviewing&reporter=pareshradadiya&order=priority
+    - project:
+      title: WordPress
+      link: https://core.trac.wordpress.org/my-comments/all?USER=pareshradadiya
+    - project: 
+      title: Easy Digital Downloads 
+      link: https://github.com/easydigitaldownloads/easy-digital-downloads/commits?author=PareshRadadiya
+    - project: 
+      title: Gutnberg
+      link: https://github.com/WordPress/gutenberg/commits?author=PareshRadadiya
+personal:
+    - project:
+      title: Mutual Buddies
+      link: https://github.com/PareshRadadiya/Mutual-Buddies
+    - project:
+      title: BuddyView
+      link: https://github.com/wp3sixty/buddy-views

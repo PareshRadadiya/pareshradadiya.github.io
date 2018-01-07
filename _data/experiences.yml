@@ -1,0 +1,35 @@
+- experience:
+  role: Backend Developer
+  time: Dec, 2015 - Present
+  company: 
+    name: BuddyBoss LLC
+    linK: https://www.buddyboss.com
+  details: "I got opportunity to work remotely at BuddyBos. I started working on a product maintenance team that has been responsible of maintaining existing products used by many clients.  Some of my responsibilities inside BuddyBoss are:"
+  highlights:
+    - Provide 2nd level technical support for all products. 
+    - Work to achieve results within a specific deadline (or beating the deadline), or with a focus on solid quality. 
+    - Write code that works in all server environment and maintain backwards compatibility while constantly adding new features and taking advantage of new technologies and APIs. 
+    - Build and propose new features. 
+    - Refactoring and Improving existing code. 
+    - Periodical updates for all the products with fixes and improvements. 
+- experience:
+  role: Web Developer
+  time: July, 2014 - Dec, 2015
+  company: 
+    name: rtCamp Solution Pvt Ltd.
+    link: https://rtcamp.com
+  details: "I started as a full stack web developer and developed sites for various clients that includes development of plugins according to client's specification. Worked on WordPress base SaaS product for CRM and HRM solution."
+  highlights:
+    - Worked closely with manager on project scoping and management to ensure systems are delivered on time. 
+    - Supervised the work of 1 junior software engineer and 1 QA. 
+    - Resolved customer issues by establishing workarounds and solutions and by debugging and creating defect fixes. 
+- experience:
+  role: Software Engineer Intern
+  time: Jan, 2014 - July, 2014
+  company: 
+    name: Essar, Surat
+    link: https://www.essar.com
+  details: Worked alongside a senior developer to design and build out a Grid Framework. Notably this framework handled representing and manipulating tabular data on the web. The Grid Framework had been developed in jqGrid grid plugin which is a grid client-side solution, loading data dynamically through Ajax callbacks integrated in Java
+  highlights:
+    - Programmed in an object-oriented programming language with an eye toward code abstraction and reuse. 
+    - Implemented unit tests to consistently deliver high quality features.

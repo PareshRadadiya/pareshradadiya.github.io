@@ -1,0 +1,23 @@
+<section class="section summary-section">
+
+  <h2 class="section-title"><i class="fa fa-github-alt"></i>&nbsp;Open Source Contrubution</h2>
+
+    <ul>
+	    {% for project in site.data.projects.contribution %}
+	  	<li><a href={{ project.link }} target="_blank">{{ project.title }}</a></li>
+	    {% endfor %}
+     </ul>
+    
+</section><!--//section-->
+
+<section class="section summary-section">
+
+  <h2 class="section-title"><i class="fa fa-folder-open"></i>&nbsp;Personal Projects</h2>
+
+    <ul class="personal">
+        {% for project in site.data.projects.personal %}
+	  	<li><a href={{ project.link }} target="_blank">{{ project.title }}</a></li>
+	    {% endfor %}
+    </ul>
+    
+</section><!--//section-->

@@ -1,0 +1,37 @@
+- skill:
+  type: Frontend
+  set:
+    - PHP
+    - WordPress
+    - MySql
+    - LAMP
+    - REST
+    - PHPUnit
+    - Java
+- skill:
+  type: Backend
+  set: 
+    - HTML
+    - CSS
+    - JavaScript
+    - ES2025, ES6
+    - ReactJS(Web)
+    - jQuery
+    - Ajax
+- skill:
+  type: Tools
+  set:
+    - Git
+    - SVN
+    - PhpStorm
+    - Sublime
+    - Slack
+    - Linux
+    - Oh My Zsh
+    - iTerm2
+    - wp-cli
+- skill:
+  type: Miscellaneous
+  set:
+    - SCSS
+    - Grunt      

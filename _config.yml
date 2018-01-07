@@ -1,0 +1,45 @@
+# Dependencies
+highlighter:      rouge
+
+gems:
+  - jekyll-paginate
+  - jekyll-feed
+
+# Permalinks
+permalink:              /:title
+# permalink:            blog/:categories/:year/:month/:day/:title/
+
+# Setup
+title:            'Paresh Radadiya'
+name:             'Paresh Radadiya'
+#tagline:          ''
+description:      'WordPress Engineer and software developer'
+#url:              http://vakila.github.io/
+baseurl:
+# blogurl:          /blog/
+
+# Assets
+images:         '/img'
+pdfs:           '/pdf'
+
+author:
+  name:           'Paresh Radadiya'
+  url:            pareshradadiya.github.io
+  email:          'pareshpravin@gmail.com'
+  github:         'https://github.com/pareshradadiya'
+  wordpress:      'https://profiles.wordpress.org/pareshradadiya-1/'
+  twitter:        'https://twitter.com/yapareshya'
+  linkedin:       'https://www.linkedin.com/in/pareshradadiya'
+
+paginate:         3
+# paginate_path:    "/blog/page:num/"
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/pareshradadiya/pareshradadiya.github.io
+
+
+#Profile information
+pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
