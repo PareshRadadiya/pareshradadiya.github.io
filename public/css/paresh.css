@@ -171,6 +171,9 @@ a.btn-outline:active {
 .main-wrapper .experiences-section .item {
     margin-bottom: 30px;
 }
+.main-wrapper .education-section  .degree {
+  margin: 0;
+}
 
 /* this does some magic that preserves the 8.5x11" aspect ratio */
 .slide-container {
