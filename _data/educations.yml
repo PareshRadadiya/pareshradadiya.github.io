@@ -1,13 +1,17 @@
 - education:
   degree: MSc - Information and communications technology
-  institute: J. P. Dawer Institute of Information Science & Technology Surat, Gujarat
+  institute:
+   name: J. P. Dawer Institute of Information Science & Technology Surat, Gujarat
+   link: http://vnsguit.org
   time: 2012 - 2014
   coursework:
    - Architectural Implications of Cloud Computing seminar. 
    - Coursework in Risk and Opportunity Management. 
 - education:
   degree: Bachelor of Computer Application
-  institute: Sutex bank college of computer application Surat, Gujarat 
+  institute: 
+    name: Sutex bank college of computer application Surat, Gujarat 
+    link: http://www.amrolibca.org
   time: 2009 - 2012
   coursework:
     - Software Architecture coursework. 

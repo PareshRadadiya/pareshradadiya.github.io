@@ -1,14 +1,17 @@
 {% if site.data.educations %}
 <div class="education-container container-block">
 
-  <h2 class="container-block-title"><i class="fa fa-graduation-cap"></i>&nbsp;Education</h2>
+  <h2 class="section-title"><i class="fa fa-graduation-cap"></i>&nbsp;Education</h2>
 
   {% for education in site.data.educations %}
     <div class="item">
       <h4 class="degree">{{ education.degree }}</h4>
-      <h5 class="meta">{{ education.institute }}</h5>
-      <div class="time">{{ education.time }}</div>
-
+      <div class="meta">
+         <div class="upper-row">
+           <h5 class="title"><a href="{{education.institute.link}}" target="_blank">{{ education.institute.name }}</a></h5>
+        <div class="time">{{ education.time }}</div>
+         </div>
+      </div>
       <ul class="coursework">
       	{% for coursework in education.coursework %}
       	<li>{{ coursework }}</li>

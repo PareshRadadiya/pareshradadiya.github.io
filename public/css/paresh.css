@@ -147,52 +147,29 @@ a.btn-outline:active {
     margin-bottom: 1em;
 }
 
-/* this does some magic that preserves the 8.5x11" aspect ratio */
-.pdf-container {
-    height: 0;
-    width: 100%;
-    padding-bottom: 129.41%; /* 11/8.5 = 1.2941 */
-    overflow: hidden;
+/* Resume */
+.main-wrapper .upper-row {
     position: relative;
+    overflow: hidden;
+    margin-bottom: 2px;
 }
-
-.pdf-container object {
-    width: 100%;
-    height: 100%;
+.main-wrapper .title {
+    color: #3F4650;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.main-wrapper .time {
     position: absolute;
+    right: 0;
     top: 0;
-    left: 0;
+    color: #97AAC3;
 }
-
-
-/* Projects */
-
-/*.project {
-    border-top: 1px solid gray;
-    padding: 5px
-}*/
-
-/*.project-tagline {
-    opacity: .5;
-}*/
-
-/* Talks */
-
-.talk-section {
-  margin-top: 0;
+.main-wrapper .company {
+    margin-bottom: 10px;
+    color: #97AAC3;
 }
-
-.talk {
-  margin-top: .5em;
-  margin-bottom: 1.5em;
-}
-
-.talk-subtitle {
-  margin-bottom: 0;
-}
-
-.talk-resource {
-  padding-right: 0.5em;
+.main-wrapper .experiences-section .item {
+    margin-bottom: 30px;
 }
 
 /* this does some magic that preserves the 8.5x11" aspect ratio */
