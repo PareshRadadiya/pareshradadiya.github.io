@@ -6,11 +6,11 @@ contribution:
       title: WordPress
       link: https://core.trac.wordpress.org/my-comments/all?USER=pareshradadiya
     - project: 
+      title: SportsPress
+      link: https://github.com/ThemeBoy/SportsPress/commits?author=PareshRadadiya
+    - project: 
       title: Easy Digital Downloads 
       link: https://github.com/easydigitaldownloads/easy-digital-downloads/commits?author=PareshRadadiya
-    - project: 
-      title: Gutnberg
-      link: https://github.com/WordPress/gutenberg/commits?author=PareshRadadiya
 personal:
     - project:
       title: Mutual Buddies

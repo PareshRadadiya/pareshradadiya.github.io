@@ -236,6 +236,16 @@ figure {
   margin: 0;
 }
 
+.label-keyword {
+  display: inline-block;
+  background: #7eb0db;
+  color: white;
+  font-size: 0.8em;
+  padding: 5px;
+  margin-right: 5px;
+  border-radius: .25em;
+}
+
 /* COLORS */
 
 /* Red */
@@ -281,4 +291,45 @@ figure {
 /* Black (no class on body - Poole defaults) */
 #sidebar-buttons {
   color: #000000;
+}
+
+
+/* Red */
+.theme-base-08 .label-keyword {
+  background: #ac4142;
+}
+
+/* Orange */
+.theme-base-09 .label-keyword {
+  background: #d28445;
+}
+
+/* Yellow */
+.theme-base-0a .label-keyword {
+  background: #DCAC69; /*#f4bf75;*/
+}
+
+/* Green */
+.theme-base-0b .label-keyword {
+  background: #90a959;
+}
+
+/* Cyan */
+.theme-base-0c .label-keyword {
+  background: #75b5aa;
+}
+
+/* Blue */
+.theme-base-0d .label-keyword {
+  background: #6a9fb5;
+}
+
+/* Magenta */
+.theme-base-0e .label-keyword {
+  background: #aa759f;
+}
+
+/* Brown */
+.theme-base-0f .label-keyword {
+  background: #8f5536;
 }

@@ -15,12 +15,6 @@
 
     </div><!--//meta-->
 
-    {% if experience.details %}
-    <div class="details">
-      <p>{{ experience.details }}</p>
-    </div><!--//details-->
-    {% endif %}
-
     <ul class="highlights">
     {% for highlight in experience.highlights %}
       <li>{{ highlight }}</li>

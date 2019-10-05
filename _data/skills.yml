@@ -1,37 +1,28 @@
 - skill:
-  type: Frontend
+  type: Programming Languages
   set:
     - PHP
-    - WordPress
-    - MySql
-    - LAMP
-    - REST
-    - PHPUnit
     - Java
-- skill:
-  type: Backend
-  set: 
-    - HTML
-    - CSS
     - JavaScript
-    - ES2025, ES6
-    - ReactJS(Web)
-    - jQuery
-    - Ajax
 - skill:
-  type: Tools
+  type: Databases
   set:
-    - Git
+    - MySQL
+    - Oracle
+- skill:
+  type: Content Management Systems
+  set:
+    - WordPress
+    - Gatsby
+    - Jekyll      
+- skill:
+  type: Version Controls
+  set:
+    - GIT
     - SVN
-    - PhpStorm
-    - Sublime
-    - Slack
-    - Linux
-    - Oh My Zsh
-    - iTerm2
-    - wp-cli
 - skill:
-  type: Miscellaneous
+  type: Build Tools
   set:
-    - SCSS
-    - Grunt      
+    - Grunt
+    - Gulp
+    - Webpack
